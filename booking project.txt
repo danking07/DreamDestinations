@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Stay | Dream Destinations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo">Dream Destinations</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="booking-container">
+        <h2>Reserve Your Spot</h2>
+        <p class="booking-sub">Fill in your details and we will get back to you shortly.</p>
+
+        <form id="bookingForm">
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Jane Doe">
+                <span class="err" id="name-err"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="jane@example.com">
+                <span class="err" id="email-err"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="dest">Desired Destination</label>
+                <input type="text" id="dest" placeholder="e.g. Maasai Mara">
+                <span class="err" id="dest-err"></span>
+            </div>
+
+            <button type="submit" class="submit-btn">Save Booking</button>
+
+        </form>
+
+        <div id="feedback"></div>
+
+        <div id="past-bookings">
+            <h3>Your Saved Bookings</h3>
+            <div id="bookings-list"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
