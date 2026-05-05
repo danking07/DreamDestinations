@@ -1,19 +1,55 @@
-body {
-  font-family: "Segoe UI", sans-serif;
-  margin: 0;
-  background: aqua;
-  color: #333;
+body{
+  background-color: deepskyblue;
+  font: 1em sans-serif;
+  color: black;
 }
-header{
-  text-align: center;
- 
-  color: white;
 
+.header{
+  background-color: purple;
+  color: white;
+  padding: 20px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navlinks{
-  margin: auto;
-  color: red;
-  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
+.navlinks a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container{
+  text-align: center;
+  padding: 40px 0;
+}
+
+.buttons{
+  margin-top: 15px;
+}
+
+.budget-btn{
+  padding: 10px 25px;
+  margin: 5px;
+  border: 2px solid blue;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.budget-btn:hover {
+  background-color: darkblue;
+  color: white;
+}
