@@ -8,6 +8,7 @@ body{
   background-color:black;
   color: white;
   padding: 1rem 0;
+  text-align: center;
 }
 
 nav{
@@ -102,7 +103,7 @@ color: #333333;
   max-width: 400px;
   margin: 50px auto;
   padding: 30px;
-  background-color: chartreuse;
+  background-color: darkcyan;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 5px 15px black;
@@ -134,7 +135,7 @@ input {
 }
 #feedback {
   display: none;
-  color: green;
+  color: red;
   font-weight: bold;
   margin-top: 15px;
 }
@@ -171,6 +172,12 @@ input {
 
 @media (max-width: 600px) {
   .hero-content h1 {font-size: 28px; }
-  .card { width: 90%; }
+  .card { width: 50%; }
   nav { flex-direction: column; gap: 10px; }
+}
+.footer{
+  color: white;
+  background-color: black;
+  padding: 30px;
+  text-align: center;
 }
