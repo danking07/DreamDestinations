@@ -1,32 +1,44 @@
+//add event listeners
 document.addEventListener("DOMContentLoaded", function() {
+
+    // destinations page - budget filter buttons
     const buttons = document.querySelectorAll(".budget-btn");
     const sections = document.querySelectorAll(".dest-section");
     const promptMsg = document.getElementById("prompt-msg");
 
     if (buttons.length > 0) {
+        //hides all the sections when the page loads
         for (let i = 0; i < sections.length; i++) {
             sections[i].style.display = "none";
         }
+        //add click listener to each button
         for (let j = 0; j < buttons.length; j++) {
             buttons[j].addEventListener("click",function () {
+                //get which section to show
                 const targetId = this.getAttribute("data-target");
                 
-                
+                //hide all sections
                 for (let k = 0; k < sections.length; k++) {
                     sections[k].style.display = "none";
                 }
 
+                //remove active style from all buttons
                 for (let l = 0; l < buttons.length; l++) {
                   buttons[l].classList.remove("active-btn");
                 }
+
+                //show the correct section
 
                 const target = document.getElementById(targetId);
                 if (target) {
                     target.style.display = "block";
                 }
 
+                //Mark this button as active
+
                 this.classList.add("active-btn");
 
+                //hide the prompt message
                 if (propmtMsg) {
                     propmtMsg.style.display = "none";
                 }
@@ -35,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 
+    //Booking page -- Form submit & local storage
 
     const bookingForm = document.getElementById("bookingForm");
     const feedback = document.getElementById("feedback");
@@ -50,13 +63,15 @@ document.addEventListener("DOMContentLoaded", function() {
             const dest = document.getElementById("dest").value.trim();
 
 
-
+//clear old errors
             document.getElementById("name-err").textContent = "";
             document.getElementById("email-err").textContent = "";
             document.getElementById("dest-err").textContent = "";
             document.getElementById("name").classList.remove("input-err");
             document.getElementById("email").classList.remove("input-err");
             document.getElementById("dest").classList.remove("input-err");
+
+            //validate fields - 'let' used here because the value changes
 
             let valid = true;
 
@@ -120,6 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         list.innerHTML = "";
 
+        //let used for loop counter
         for (let i = allBookings.length - 1; i >= 0; i--){
             const b = allBookings[i];
             const record = document.createElement("div");

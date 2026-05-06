@@ -100,13 +100,14 @@ font-size: 0.9rem;
 color: #333333;
 }
 .booking-container{
-  max-width: 400px;
-  margin: 50px auto;
+  max-width: 700px;
+  margin: 70px auto;
   padding: 30px;
-  background-color: darkcyan;
+  background-color: rgb(1, 9, 9);
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 5px 15px black;
+  color: white;
 }
 
 input {
@@ -120,9 +121,9 @@ input {
 }
 
 .submit-btn {
-  width: 100%;
-  background-color: gold;
-  padding: 12px;
+  width: 80%;
+  background-color:royalblue;
+  padding: 20px;
   border: 2px solid navy;
   color: white;
   cursor: pointer;
@@ -135,7 +136,7 @@ input {
 }
 #feedback {
   display: none;
-  color: red;
+  color:green;
   font-weight: bold;
   margin-top: 15px;
 }
@@ -180,4 +181,8 @@ input {
   background-color: black;
   padding: 30px;
   text-align: center;
+}
+.bok1{
+  text-align: center;
+  color: rgb(47, 255, 75);
 }
