@@ -56,5 +56,6 @@ The project is MIT Lisenced see the details below
 
 ## MIT License
 Permission is hereby granted to anyone who gets a copy of this web application software without restriction to deal without limits the rights to use,copy,modify publish or completely change the software.
+This Software is therefore given permission to anyone to change modify or use the project however their want .
 
 
