@@ -11,16 +11,23 @@ In this web application it has a list of destinations corresponding with the bud
 ##  Live Pages
 
 index.html— Homepage with hero section and booking count
+
 destinations.html — Browse destinations filtered by budget
+
 booking.html — Fill in and submit your booking reservation
 
 
 
 ## How it works
+
 1. The user clicks the start exploring button in the home page.
+
 2. Then the user selects their budget either Low Mid and High
+
 3. The web application brings out a list of destinations based on the budget.
+
 4.The user selects their prefered destination and clicks the book now.
+
 5.The web application takes the user to the booking form where the user inputs their details and their destination and the booking is saved.
 
 ## Author
@@ -74,7 +81,7 @@ DreamDestinations
 ├── style.css           # All styles and media queries
 
 ├── style.js            # All JavaScript logic
-│
+
 ├── park.jpg            # Nairobi National Park image
 
 ├── karura.jpg          # Karura Forest image
