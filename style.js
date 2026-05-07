@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 //hide the prompt message
                 if (promptMsg) {
-                    propmtMsg.style.display = "none";
+                    promptMsg.style.display = "none";
                 }
             });
         }
@@ -157,3 +157,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 });
+
