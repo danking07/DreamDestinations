@@ -1,9 +1,20 @@
 ## DreamDestinations website
-## Project Description
 
-The DreamDestinatins is a web application that recommends a list of destinations in kenya and all over the world.This web application is designed to recommend destinations based on their budget no matter high or low budget users can still get to visit great destinations.
+## Project Description and problem solved
+
+Planning a trip can be overwhelming, especially when you're unsure which destinations fit your budget. DreamDestinations solves this by organizing travel destinations into clear budget categories, allowing users to explore options and make bookings directly on the platform.
 
 In this web application it has a list of destinations corresponding with the budget either low mid or high budget.
+
+
+
+##  Live Pages
+
+index.html— Homepage with hero section and booking count
+destinations.html — Browse destinations filtered by budget
+booking.html — Fill in and submit your booking reservation
+
+
 
 ## How it works
 1. The user clicks the start exploring button in the home page.
@@ -33,6 +44,46 @@ When the user submits without filling one of the field the respective fields inp
 
 4 Saved Bookings
 When the user submits the form the web application saves the users booked information.
+
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+
+   git clone https://github.com/danking07/DreamDestinations.git
+
+   
+2. Navigate into the project folder:
+
+   cd DreamDestinations
+
+3. Open index.html in your browser directly, or use a live server extension (e.g., VS Code Live Server).
+
+
+## Project Structure
+
+DreamDestinations/
+│
+├── index.html          # Homepage
+├── destinations.html   # Destinations browsing page
+├── booking.html        # Booking form page
+├── style.css           # All styles and media queries
+├── style.js            # All JavaScript logic
+│
+├── park.jpg            # Nairobi National Park image
+├── karura.jpg          # Karura Forest image
+├── Ngong.jpg           # Ngong Hills image
+├── naivasha.jpg        # Lake Naivasha image
+├── hellsgate.jpg       # Hells Gate image
+├── nakuru.jpg          # Lake Nakuru image
+├── diani.jpg           # Diani Beach image
+├── watamu.jpg          # Hemingways Watamu image
+├── maldives.jpg        # The Maldives image
+├── dubai.jpg           # Dubai image
+├── seychelles.jpg      # The Seychelles image
+└── newzealand.jpg      # New Zealand image
+
+
 
 ## Technologies Used
 

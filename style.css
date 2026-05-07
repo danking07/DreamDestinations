@@ -107,7 +107,7 @@ color: #b09acc;
 }
 .booking-container{
   max-width: 700px;
-  height: 550px;
+  min-height: 550px;
   margin: 50px auto;
   padding: 30px;
   background-color: aqua;
@@ -177,6 +177,17 @@ input {
 .cta-btn:hover{
   background-color:purple;
 }
+
+/* Responsive design for tablet */
+
+@media (max-width: 768px) {
+  .hero-content h1 { font-size: 36px; }
+  .card { width: 45%; }
+  .booking-container { height: auto; padding: 20px; }
+  .grid { gap: 15px; }
+}
+
+/* Responsive design for mobile */
 
 @media (max-width: 600px) {
   .hero-content h1 {font-size: 28px; }

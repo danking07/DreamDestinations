@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 this.classList.add("active-btn");
 
                 //hide the prompt message
-                if (propmtMsg) {
+                if (promptMsg) {
                     propmtMsg.style.display = "none";
                 }
             });
