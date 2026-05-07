@@ -28,6 +28,7 @@ nav{
   color: #d4b0ff;;
   text-decoration: none;
   font-weight: bold;
+  display: flex;
 }
 
 .filter-container{
@@ -205,8 +206,4 @@ input {
 .book-btn :hover {
   background-color:red;
   color: #1a0533;
-}
-.navlinks{
-  text-decoration: none;
-  
 }
