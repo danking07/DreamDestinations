@@ -6,33 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const sections = document.querySelectorAll(".dest-section");
     const promptMsg = document.getElementById("prompt-msg");
 
-    if (buttons.length > 0) {
-        //hides all the sections when the page loads
-        for (let i = 0; i < sections.length; i++) {
-            sections[i].style.display = "none";
-        }
-        //add click listener to each button
-        for (let j = 0; j < buttons.length; j++) {
-            buttons[j].addEventListener("click",function () {
-                //get which section to show
-                const targetId = this.getAttribute("data-target");
-                
-                //hide all sections
-                for (let k = 0; k < sections.length; k++) {
-                    sections[k].style.display = "none";
-                }
-
-                //remove active style from all buttons
-                for (let l = 0; l < buttons.length; l++) {
-                  buttons[l].classList.remove("active-btn");
-                }
-
-                //show the correct section
-
-                const target = document.getElementById(targetId);
-                if (target) {
-                    target.style.display = "block";
-                }
+ ?
 
                 //Mark this button as active
 
