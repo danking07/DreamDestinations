@@ -152,7 +152,7 @@ input {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #1a0533;
   height: 90vh;
 }
 
@@ -165,7 +165,7 @@ input {
   margin-bottom: 25px;
 }
 .cta-btn {
-  background-color:palegreen;
+  background-color:rgb(45, 30, 255);
   color: white;
   padding: 14px 30px;
   border-radius: 6px;
