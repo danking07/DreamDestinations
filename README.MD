@@ -35,8 +35,11 @@ When the user submits without filling one of the field the respective fields inp
 When the user submits the form the web application saves the users booked information.
 
 ## Technologies Used
+
  1.Html  structure and elements for users input
+
 2.Css  Styling and responsive design
+
 3.Javascript   For the functionality of the web application
 
 ## Contact Information
