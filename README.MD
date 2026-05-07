@@ -62,25 +62,41 @@ When the user submits the form the web application saves the users booked inform
 
 ## Project Structure
 
-DreamDestinations/
+DreamDestinations
+
 │
 ├── index.html          # Homepage
+
 ├── destinations.html   # Destinations browsing page
+
 ├── booking.html        # Booking form page
+
 ├── style.css           # All styles and media queries
+
 ├── style.js            # All JavaScript logic
 │
 ├── park.jpg            # Nairobi National Park image
+
 ├── karura.jpg          # Karura Forest image
+
 ├── Ngong.jpg           # Ngong Hills image
+
 ├── naivasha.jpg        # Lake Naivasha image
+
 ├── hellsgate.jpg       # Hells Gate image
+
 ├── nakuru.jpg          # Lake Nakuru image
+
 ├── diani.jpg           # Diani Beach image
+
 ├── watamu.jpg          # Hemingways Watamu image
+
 ├── maldives.jpg        # The Maldives image
+
 ├── dubai.jpg           # Dubai image
+
 ├── seychelles.jpg      # The Seychelles image
+
 └── newzealand.jpg      # New Zealand image
 
 
